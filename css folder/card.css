@@ -1,0 +1,41 @@
+.container{
+    background-color: silver;
+    height: 450px;
+    width: 350px;
+    border-radius: 25px;
+    float: left;
+    margin-top: 10px;
+    
+}
+.main{
+    background-color: whitesmoke;
+    height: 100vh;
+    width: 100%;
+     display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.container h1{
+    text-align: center;
+}
+
+
+
+
+
+.card_img{
+    width: 200px;
+    margin-left: 100px;
+    padding-top: 30px;
+    border-radius: 20px;
+}
+.dec{
+    text-align: justify;
+    padding: 20px;
+
+}
+.container:hover{
+    background-color: aqua;
+    color: black;
+}

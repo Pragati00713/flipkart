@@ -1,0 +1,37 @@
+table{
+    background-color: azure;
+    margin: auto;
+    border-radius: 20px;
+    height: 10px;
+    width: 10px;
+    font-family: ink-free;
+}
+table tr th{
+    background-color: pink(205, 255, 240);
+    font-size: 20px;
+    border-bottom: 20px;
+    border-radius: 20px;
+    color: red;
+}
+table tr{
+    text-align: center;
+}
+tr:nth-child(even){       
+
+
+    background-color:darkgray;}
+    tr:hover{
+        background-color: hotpink;
+    }
+    
+    table:hover{
+        background-color: black;
+        color: white;
+        color: aqua;
+    }
+    td:hover{
+        background-color: whitesmoke;
+        color: tomato;
+        font-size: 30px;
+    }      
+     

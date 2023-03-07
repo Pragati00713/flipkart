@@ -1,0 +1,36 @@
+ul{background-color: aqua;      
+    width: 40%;
+    list-style-type: none;
+    border-radius: 40px;
+
+}
+ul li{
+    font-size: 30px;
+    margin-left: 40%;
+
+}
+.item1{
+    background-color: blue;
+    color: white;
+    border-radius: 30px;
+
+}
+.item2{
+    background-color: pink;
+    color: white;
+    margin-top: 5;
+    border-radius: 40px;
+}
+
+.item3{
+background-color: brown;
+color: blue;
+border-radius: 30px;
+}
+.item3{
+    background-color: rgb(138, 165, 42);
+    color: blue;
+    border-radius: 30px;
+    }
+    
+}

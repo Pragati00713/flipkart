@@ -1,0 +1,25 @@
+.container{
+    background-color: silvr;
+    height: 500px;
+    width: 400px;
+    border-radius: 40px;
+    float: left;
+    
+}
+.card_img{
+    width: 70px;
+
+
+    margin-left: 60px;
+    padding-top: 30px;
+    border-radius: 90px;
+}
+.dec{
+    text-align: justify;
+    padding: 20px;
+
+}
+.container:hover{
+    background-color: aqua;
+    color: black;
+}
