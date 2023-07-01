@@ -41,9 +41,8 @@ nav ul li{
     
 }
 .container{
-     /* height: 150vh; */
      width: 100%;
-      /* justify-content: space-between; */
+    
      background-color: #cac1c1;
      box-sizing: border-box;
      display: flex;
