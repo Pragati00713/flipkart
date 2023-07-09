@@ -1,0 +1,12 @@
+*{
+     margin: 0;padding: 0;
+}
+.main{
+     display: grid;
+     grid-template-columns: repeat(1, fr);
+     grid-template-rows: repeat(2,fr);
+     
+
+      
+}
+

@@ -1,0 +1,107 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+nav{
+     display: flex;
+     height: 60px;
+     width: 100%;
+     background-color: black;
+     color: white;
+     align-items: center;
+     position: fixed;
+     box-shadow: 2px 2px 5px 10px gray;
+   
+
+}
+nav h1{
+     font-size: 25px;
+     margin-left: 40px;
+}
+nav ul{
+     display: flex;
+    
+}
+nav ul li{
+     display: flex;
+     list-style: none;
+     justify-content: center;
+     margin-left: 150px;
+     font-size: 20px;
+     box-sizing: border-box;
+}
+nav a{
+     text-decoration: none;
+     color: white;
+}
+.cards{
+     width: 20%;
+     background-color: white;
+   margin-left: 50px;
+     margin-top: 100px;
+     height: 300px;
+     border-radius: 20px;
+     box-shadow: 8px 5px 10px black;
+
+}
+.img img{
+     width: 100%;
+     border-top-left-radius: 25px;
+     border-top-right-radius: 25px;
+
+    
+
+}
+.title{
+     /* align-items: center; */
+     text-align: center;
+}
+.des{
+     text-align: center;
+}
+button{
+     margin-top: 20px;
+     height: 30px;
+     width: 100px;
+     border-radius: 25px;
+     background-color: white;
+}
+button:hover{
+     background-color: black;
+     color: white;
+     transition: 2s;
+     cursor: pointer;
+     height: 35px;
+     width: 110px;
+
+}
+
+.main{
+     /* font: left sans-serif; */
+     display: flex;
+     flex-wrap: wrap;
+}
+
+footer{
+     display: flex;
+     height: 300px;
+     width: 100%;
+     background-color: black;
+     color: white;
+     padding: 50px;
+     margin-top: 50px;
+}
+footer ul{
+     width: 20%;
+     list-style: none;
+     font-size: 35px;
+}
+ul li{
+     font-size: 20px;
+     display: flex;
+     flex-direction: column;
+}
+ul p{
+     font-size: 20px;
+}
