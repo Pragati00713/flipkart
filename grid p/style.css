@@ -1,0 +1,258 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+header {
+     display: flex;
+     background-color: white;
+     height: 100px;
+     width: 100%;
+     justify-content: space-around;
+     padding-right: 30px;
+     box-sizing: border-box;
+     box-shadow: 5px 5px 5px 5px black;
+     align-items: center;
+     position: fixed;
+     top: 0;
+
+}
+header:hover{
+     background-color: black;
+     transition: 2s;
+     cursor: pointer;
+}
+
+.logo img {
+     height: 105px;
+}
+
+header button {
+     margin-left: 50%;
+     height: 65px;
+     cursor: pointer;
+     width: 200px;
+     border-radius: 25px;
+     background-color: blue;
+     font-size: 25px;
+     color: white;}
+.container{
+     display: grid;
+     grid-template-columns: repeat(auto-fit,1fr);
+     grid-template-rows: repeat(auto-fit,700px,700px,700px 700px);
+     grid-auto-rows: 700px;
+    
+}
+.item {
+     background-color: black;
+     border: 3px solid rgb(167, 157, 157);
+
+}
+.item:hover{
+     background-color: black;
+     color:white;
+     transition: 5s;
+     cursor: pointer;
+}
+
+.item1{
+     background-color: #fff;
+     font-size: 35px;
+     color: blue;
+     display: flex;
+     align-items: center;
+     flex-wrap: wrap;
+     justify-content: space-around;
+
+}
+.item1 img{
+     height: 400px;
+     width: 600px;
+}
+
+.item button{
+     height: 80px;
+     width: 380px;
+     border-radius: 25px;
+     background-color: blue;
+     color: white;
+     font-size: 30px;
+     cursor: pointer;
+      margin-bottom: 20px;
+     margin-top: 20px; 
+}
+
+.item2{
+     background-color:white;
+     font-size: 30px;
+   padding: 100px;
+    padding-left: 40% ;
+}
+
+.item3{
+
+     background-color: #fff;
+     font-size: 35px;
+     text-align: center;
+     padding-top: 300px;
+}
+.item4{
+     grid-row-start: 4;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 35px;
+    
+}
+ .item4 img{
+     height: 400px;
+     width: 600px;
+     
+padding: 50px;
+ }
+.item5{
+     background-color: white;
+     display: flex;
+     align-items: center;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     font-size: 35px;
+     width: 100%;
+
+ }
+.item5 img{
+     width: 500px;
+     height: 600px;
+     padding: 50px;
+ }
+ .item6{
+     background-color: #fff;
+     width: 100%;
+     text-align: center;
+     
+ }
+ .card1{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 20px;
+     flex-wrap: wrap;
+ }
+ .gd{
+     display: flex;
+     flex-direction: column;
+     margin: 30px;
+ }
+.card{
+     display: flex;
+     height: 220px;
+     width: 700px;
+     background-color: white(238, 230, 230);
+    border: 2px dotted  blue;
+     border-radius: 25px;
+     font-size: 25px;
+     justify-content: center;
+     align-items: center;
+     margin-bottom: 20px;
+
+
+}
+.card img{
+     height: 180px;
+     cursor: pointer;
+
+
+}
+.item7{
+     width:100%;
+     background-color: #fff;
+     text-align: center;
+     padding: 50px;
+}
+.more_cards{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 20px;
+     flex-wrap: wrap;
+     margin: 100px;
+
+
+}
+
+.onecd{
+     display: flex;
+     height: 500px;
+     width: 500px;
+     background:linear-gradient(white,rgb(201, 188, 188));
+    border: 2px dotted  blue;
+     border-radius: 25px;
+     font-size: 25px;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+
+
+}
+.onecd:hover{
+     background-color: #fff;
+     border-radius: 65%;
+     transition: 2s;
+     cursor: pointer;
+}
+.onecd img{
+     height: 300px;
+     width: 250px;
+     border-radius: 100%;
+}
+
+
+footer {
+     display: flex;
+     padding: 25px 25px;
+     background-color: blue;
+     height: 550px;
+     color: white;
+}
+footer::shadow{
+    
+}
+
+footer ul {
+     list-style: none;
+     width: 25%;
+     cursor: pointer;
+  
+
+}
+footer ul:hover{
+     background:linear-gradient(blue,white);
+     color: black;
+     transition: 2s;
+     border-radius:50% 10%;
+}
+
+footer li {
+     padding: 15px 20px;
+     cursor: pointer;
+     font-size: 30px;
+
+}
+footer li::first-line{
+     background-color: white;
+     border-radius: 40px;
+}
+
+footer h3 {
+     padding: 10px 15px;
+     font-size: 25px;
+     cursor: pointer;
+}
+button:hover{
+     height: 100px;
+     width: 400px;
+     transition: 3s;
+}
