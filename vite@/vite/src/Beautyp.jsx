@@ -43,7 +43,7 @@ const Beautyp = () => {
                   <img src="https://m.media-amazon.com/images/I/51k2Vu75yaL._AC_SY200_.jpg" alt="" className='h-[180px] w-[120px]' />
 
                </div>
-               {/* <div className='flex flex-wrap'> */}
+               {/* <div className='flex  flex-wrap'> */}
                   <h1 className='flex bg-red-600 text-xl rounded-sm text-white '>Deals of the day</h1>
                   <p>freedom offer for oneplus</p>
                {/* </div> */}
