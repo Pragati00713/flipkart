@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <style>
+          #box{
+               border: 3px solid black;
+               padding: 20px;
+               width: 400px;
+               
+
+          }
+     </style>
+     <script>
+          function Addtxt(){
+               let myObj=document.createElement("p")
+               myObj.innerHTML=`<p> Enter Subject <input type="text" value=${i}>
+                    <a href="#" onclick="myDel(${i});"
+                    <img src="img.jpeg" width="20" height="20">
+                    </p>
+                    `;
+                    document.getElementById("box").appendChild(myObj);
+          }
+     </script>
+</head>
+<body>
+   <button onclick="Addtxt();">Add btn</button><br><br>
+   <div id="box">
+     <p>
+          Enter Subject <input type="text">
+     </p>
+     
+
+   </div>  
+</body>
+</html>

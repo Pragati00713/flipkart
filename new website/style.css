@@ -1,0 +1,130 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+.container{
+     height: 100vh;
+     width: 100%;
+    
+}
+nav{
+     height: 70px;
+     background-color: rgb(240, 235, 235);
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     box-shadow: 2px 2px 8px  8px black;
+   
+     
+     
+}
+
+nav img{
+     height: 40px;
+     margin-left: 20px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+    font-size: 19px;
+ 
+}
+nav ul li{
+    margin-left: 80px;
+   
+}
+.head{
+     background: url(/img/banner-2.png.webp);
+     height: 400px;
+     background-size: cover;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     box-sizing: border-box;
+     margin: 20px;
+     
+}
+.head h1{
+     font-size: 80px;
+}
+.head p{
+     opacity: 0.6;
+}
+.more{
+    
+     list-style: none;
+    
+}
+.more h1{
+     font-size: 35px;
+     margin-left: 350px;
+}
+.m_img{
+     display: flex;
+     justify-content: center;
+    
+}
+.m_img img{
+     height: 150px;
+}
+.ar{
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin: 3px;
+}
+.av img{
+     height: 40px; ;
+}
+.va{
+     height: 250px;
+     width: 100%;
+    
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     padding: 30px;
+}
+.art{
+     height: 200px;
+     width: 30%;
+     /* background-color: red; */
+     display: flex;
+     justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.art1{
+    
+     display: flex;
+     margin: 10px;
+}
+.art1 img{
+     height: 60px;
+     border-radius: 100% ;
+}
+.ani{
+     height: 100vh;
+     width: 100%;
+     background-color: rgb(241, 238, 238);
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: column;
+     justify-content: center;
+}
+.ani img{
+     height: 120px;
+}
+.animation{
+     display: flex;
+     justify-content: space-around;
+}
+.ani h1{
+     font-size: 40px;
+     text-align: center;
+     margin-bottom: 50px;
+}

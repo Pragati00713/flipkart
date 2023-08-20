@@ -1,0 +1,28 @@
+img{
+     height: 80px;
+     
+}
+
+#logo{
+     margin: 0;
+     padding: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    
+}
+#logo ul{
+display: flex;
+list-style: none;
+
+width: 100%;
+}
+#logo ul li{
+     width: 40%;
+     font-size: 20px;
+}
+button{
+     background-color: rgb(158, 68, 158);
+     color: white;
+     height: 22px;
+}

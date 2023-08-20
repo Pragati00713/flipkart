@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boxicons</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        nav{
+            display: flex;
+            align-items: center;
+            width: 100%;
+            height: 80px;
+            background-color: black;
+            color: white;
+        }
+        ul{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 100%;
+            height: 80px;
+            list-style: none;
+            font-size: larger;
+ 
+        }
+        li{
+                display: flex;
+                align-items: center;
+                column-gap: 8px;
+
+                padding: 2px;
+            }
+
+            li:hover {
+                color: red;
+            }
+            #Qr{
+                padding: 5px;
+                margin-top: 25px;
+                width: 40%;
+            }
+            button{
+                padding: 5px;
+            }
+            #QrDiv{
+                border: 2px solid rebeccapurple;
+                width: 40%;
+                height: 400px;
+                margin-top: 25px;
+            }
+            #QrDiv img{
+                background-color: peru;
+            }
+    </style>
+</head>
+
+<body>
+
+    <!-- <i class="fa fa-car" style="font-size: 400px;"></i>
+    <img src="233999.png" alt="">
+    <img src="25694.png" alt="">
+    <img src="https://cdn-icons-png.flaticon.com/128/2163/2163350.png" alt=""> -->
+    <nav>
+        <ul>
+            <li onmouseenter="hoverss(0)" onmouseleave="hovers(0)"> <i class='bx bx-home-smile ' id="icons0" ></i> Home</li>
+            <li onmouseenter="hoverss(1)" onmouseleave="hovers(1)"> <i class='bx bxl-blogger 'id="icons1" ></i> Blogs</li>
+            <li onmouseenter="hoverss(2)" onmouseleave="hovers(2)"> <i class='bx bxs-user-detail ' id="icons2"></i> About</li>
+            <li onmouseenter="hoverss(3)" onmouseleave="hovers(3)"> <i class='bx bxs-contact ' id="icons3"></i>contact</li>
+        </ul>
+    </nav>
+    <!-- <button style="padding: 4px 8px; display: flex; align-items: center; font-size: x-large;"> <i class='bx bx-home-smile bx-burst'style=""  ></i> Home</button> -->
+    <!-- <i class='bx bxs-home bx-spin-hover'style="font-size: 400px;"  ></i>
+    <i class='bx bx-home-smile bx-burst'style="font-size: 400px;"  ></i> 
+    <i class='bx bx-cart-add bx-flashing' style='color:aqua;font-size: 400px;' ></i>
+    <i class='bx bx-play bx-spi' style='font-size: 400px;' ></i>
+    <i class='bx bxs-home-heart bx-fade-right-hover' style='color:#060606; font-size: 400px;' ></i> -->
+    <!-- <img src="https://cdn-icons-png.flaticon.com/128/3470/3470140.png" alt=""> -->
+<center>    <input type="url" id="Qr">
+    <button onclick="QrGen()">Gen</button>
+    <div id="QrDiv"></div></center>
+
+    <script>
+        function hoverss(num){
+            var  tags = document.getElementById(`icons${num}`);
+            tags.classList.add("bx-spin");
+    
+        }
+        function hovers(num){
+            var  tags = document.getElementById(`icons${num}`);
+            tags.classList.remove("bx-spin");
+
+        }
+        function QrGen(){
+            const Qrinput = document.getElementById("Qr").value
+            // console.log(Qrinput.value);
+            const QrDiv = document.getElementById("QrDiv")
+            QrDiv.innerHTML = `<img src=https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${Qrinput} >`
+        }
+    </script>
+</body>
+</html> 

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function hello() {
+            //var myname = document.f1.name.value;
+            //var myemail = document.f1.email.value;
+            //alert("Hello " + myname + "myemail" );
+
+            var num1 = parseInt(document.f1.num1.value);
+            var num2 = parseInt(document.f1.num2.value);
+            var sum = num1 + num2;
+            alert(sum);
+        }
+    </script>
+</head>
+
+<body bgcolor="red" style="height: 100vh;">
+    <center>
+        <form action="./hello.html" name="f1" method="post" onsubmit="hello()">
+            <!-- Name: <input type="text" id="name"><br><br>
+                Email:<input type="text" id="email"><br><br>
+                password: <input type="password" id="psw" name="password"> <br><br>
+                Gender : Male <input type="radio" value="male" name="gender"> F
+                male <input type="radio" value="female" name="gender2[]"> <br> <br>
+                <input type="submit" name="" value="data save"> -->
+            num1:<input type="text" name="num1" id="num1"> <br><br>
+            num2: <input type="text" name="num2" id="num2"><br><br>
+            <input type="submit" value="save">
+        </form>
+    </center>
+</body>
+
+</html>

@@ -217,9 +217,7 @@ footer {
      height: 550px;
      color: white;
 }
-footer::shadow{
-    
-}
+
 
 footer ul {
      list-style: none;

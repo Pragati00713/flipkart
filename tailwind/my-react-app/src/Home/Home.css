@@ -1,0 +1,48 @@
+#home{
+     background-color: rgb(34, 33, 33);
+     height: 80vh;
+     width: 100%;
+}
+.navbar ul {
+     display: flex;
+     list-style: none;
+     color: white;
+    
+}
+.navbar ul ul li{
+     padding-left: 60px;
+}
+.navbar li{
+     padding: 10px;
+}
+#back{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     text-align: center;
+     height: 400px;
+}
+#back h1{
+     color: white;
+     font-size: 80px;
+
+}
+#back h3{
+     color: pink;
+     font-size: 25px;
+}
+#back input{
+     height: 40px;
+     width: 500px;
+     margin-top: 25px;
+     border-radius: 25px;
+     text-align: center;
+     font-weight: bolder;
+}
+#back h2{
+     font-size: 20px;
+     color: white;
+     border-bottom: 2px solid white;
+     padding-top: 15px;
+}

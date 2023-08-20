@@ -1,0 +1,73 @@
+#html{
+     height: 80vh;
+     width: 100%;
+     background-color: rgb(216, 216, 245);
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+}
+.html{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     font-weight: bolder;
+}
+.html h1{
+     font-size: 100px;
+     font-weight: bolder;
+}
+.html h3{
+     font-size: 18px;
+     margin-bottom: 20px;
+     font-weight: bolder;
+}
+.html button{
+     height: 40px;
+     width: 200px;
+     border-radius: 25px;
+     margin: 10px;
+}
+.html .b1{
+     background-color:rgb(94, 192, 94);
+}
+.html .b2{
+     background-color:rgb(204, 221, 49);
+     color: black;
+}
+.html .b3{
+      background-color: black;
+}
+.html .b4{
+     background-color:rgb(197, 89, 107);
+     color: black;
+}
+.input{
+     height: 380px;
+     width:  400px;
+     background-color:rgb(207, 207, 236);
+     margin-left: 45px;
+     font-weight: bolder;
+     border-radius: 5px;
+     text-align: left;
+    
+
+}
+.input h2{
+     font-size: 25px;
+     margin-left: 15px;
+}
+.input input{
+     height: 250px;
+     width: 350px;
+     margin-left: 20px;
+}
+.box button{
+     height: 40px;
+     width: 200px;
+     margin-top: 15px;
+     margin-left: 15px;
+    border-radius: 25px;
+    background-color:rgb(112, 173, 112);
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <style>
+        img{
+          height: 100px;
+          width: 200px;
+
+        }
+        .rgtBtn img{
+          height: 500px;
+          width: 500px;
+          border-radius: 50%;
+        }
+     </style>
+</head>
+
+<body>
+     <div id="box">
+          <div id="lftBox">
+               <img src="1.jpeg" alt="" id="img1" class="smalling" onmouseover="myimg();"><br>
+               <img src="2.jpeg" alt="" id="img2" class="smalling" onmouseover="myimg1(); ><br>
+               <img src="3.jpeg" alt="" id="img3" class="smalling"><br>
+               <img src="4.jpeg" alt="" id="img4" class="smalling"><br>
+               <img src="5.jpeg" alt="" id="img5" class="smalling"><br>
+          </div>
+
+          <div id="rgtBtn">
+               <img src="1.jpeg" alt="" id="big1" class="bigimg">
+          </div>
+     </div>
+     <script>
+          function myimg(){
+               document.getElementById("big1").src="1.jpeg"
+              
+          }
+          function myimg1(){
+               document.getElementById("big1").src="2.jpeg"
+              
+          }
+     </script>
+</body>
+</html>

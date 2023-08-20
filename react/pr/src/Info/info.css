@@ -1,0 +1,18 @@
+#info{
+     height: 130vh;
+     width: 100%;
+     background-color: rgb(192, 219, 150);
+     display: flex;
+     flex-wrap: wrap;
+     column-gap: 20px;
+     margin: 20px;
+     justify-content: center;
+     align-items: center;
+     font-weight: bolder;
+    
+}
+.info1 img{
+    height: 350px;
+    width: 400px;
+    
+}

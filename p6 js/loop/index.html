@@ -1,0 +1,50 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>loops</title>
+     <script>
+          function mydata(){
+               const subject=["php" ,"python","java","js","html"]
+               let mylist="<ol>";
+                  for(var i=0; i<subject.length; i++){
+                    mylist+=`<li> ${subject[1]} </li>`
+                    mylist+="</ol>"
+                    document.getElementById("demo").innerHTML=mylist
+                  }
+          }
+     </script>
+</head>
+<body>
+     <button onclick="mydata();">click here</button>
+     <p id="demo"></p>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function mydata()
+        {
+            const subject=["php","orcale","java","python","html"]
+            let mylist="<ol>";
+
+                for(var i=0; i<subject.length;i++)
+                {
+                    mylist+=`<li> ${subject[i]} </li>`;
+                }
+                mylist+="</ol>";
+                document.getElementById("demo").innerHTML=mylist;
+        }
+    </script>
+</head>
+<body>
+    <button onclick="mydata();">Click here</button>
+
+    <p id ="demo"></p>
+</body>
+</html>
