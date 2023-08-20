@@ -11,42 +11,42 @@ const Beautyp = () => {
                   <img src="https://m.media-amazon.com/images/I/61ru8hjf14L._AC_SY200_.jpg" alt="" className='h-[180px] w-[200px]' />
 
                </div>
-               <div>
+               {/* <div className='flex flex-wrap'> */}
                   <h1 className='flex bg-red-600 text-xl rounded-sm text-white '>Deals of the day</h1>
                   <p>freedom offer for oneplus</p>
-               </div>
+               {/* </div> */}
                <div className='flex flex-wrap justify-center items-center h-[200px] w-[250px] bg-white rounded-2xl' >
                   <img src="https://m.media-amazon.com/images/I/71HbxPN7tVL._AC_SY200_.jpg" alt="" className='h-[180px] w-[120px]' />
 
                </div>
-               <div>
+               {/* <div className='flex flex-wrap'> */}
                   <h1 className='flex bg-red-600 text-xl rounded-sm text-white '>Deals of the day</h1>
                   <p>freedom offer for oneplus</p>
-               </div>
+               {/* </div> */}
                <div className='flex flex-wrap justify-center items-center h-[200px] w-[250px] bg-white rounded-2xl' >
                   <img src="https://m.media-amazon.com/images/I/31HCiWuu+fL._AC_SY200_.jpg" className='h-[180px] w-[200px]' />
 
                </div>
-               <div>
+               {/* <div className='flex flex-wrap'> */}
                   <h1 className='flex bg-red-600 text-xl rounded-sm text-white '>Deals of the day</h1>
                   <p>freedom offer for oneplus</p>
-               </div>
+               {/* </div> */}
                <div className='flex flex-wrap justify-center items-center h-[200px] w-[250px] bg-white rounded-2xl' >
                   <img src="https://m.media-amazon.com/images/I/813echvFWrL._AC_SY200_.jpg" alt="" className='h-[180px] w-[120px]' />
 
                </div>
-               <div>
+               {/* <div className='flex flex-wrap'> */}
                   <h1 className='flex bg-red-600 text-xl rounded-sm text-white '>Deals of the day</h1>
                   <p>freedom offer for oneplus</p>
-               </div>
+               {/* </div> */}
                <div className='flex flex-wrap justify-center items-center h-[200px] w-[250px] bg-white rounded-2xl' >
                   <img src="https://m.media-amazon.com/images/I/51k2Vu75yaL._AC_SY200_.jpg" alt="" className='h-[180px] w-[120px]' />
 
                </div>
-               <div>
+               {/* <div className='flex flex-wrap'> */}
                   <h1 className='flex bg-red-600 text-xl rounded-sm text-white '>Deals of the day</h1>
                   <p>freedom offer for oneplus</p>
-               </div>
+               {/* </div> */}
 
 
             </div>

@@ -71,7 +71,7 @@ const Travel = () => {
                </div>
 
                <div className='flex h-[350px] w-full bg-white mt-6 justify-center items-center gap-2 flex-wrap flex-col'>
-                    <div className='flex text-lg justify-center items-center w-[]'>
+                    <div className='flex text-lg justify-center items-center w-[] flex-wrap'>
                     <h1 className='text-2xl text-slate-900'>Today’s Deals</h1>
                     <button>See all deals</button>
                     </div>
