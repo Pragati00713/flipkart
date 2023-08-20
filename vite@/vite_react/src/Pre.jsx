@@ -32,7 +32,7 @@ const Pre = () => {
        </div>
        <div className='flex flex-wrap justify-center items-center   flex-col '>
             <img src="https://rukminim2.flixcart.com/flap/128/128/image/71050627a56b4693.png?q=100" alt=""  className='flex h-[80px]'/>
-            <h1 className='text-black'>Travel</h1>
+            <h1 className= ' flex text-black'>Travel</h1>
             
        </div>
        
