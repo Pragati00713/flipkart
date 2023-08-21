@@ -35,7 +35,7 @@ const Footer = () => {
           <li className='flex hover:underline '><a href="#">Coprate information</a></li>
      </ul>
      <ul>
-          <h1 className='flex text-cyan-400'>About</h1>
+          <h1 className='flex  text-cyan-400'>About</h1>
           <li className='flex hover:underline '><a href="#">Contact us</a></li>
           <li className='flex hover:underline '><a href="#">About us</a></li>
           <li className='flex hover:underline '><a href="#">Careers</a></li>
