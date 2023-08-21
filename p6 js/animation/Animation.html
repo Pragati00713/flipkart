@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Animation</title>
+     <style>
+          #box {
+               width: 150px;
+               height: 150px;
+               background-color: black;
+               color: white;
+               border-radius: 50%;
+               position: absolute;
+          }
+     </style>
+</head>
+
+<body>
+     <button onclick="myMove();">cilck here</button>
+     <div id="box">
+
+     </div>
+     <script>
+          function myMove() {
+                let obj= document.getElementById("box");
+                obj.style.left="500px";
+          }
+     </script>
+</body>
+
+</html>

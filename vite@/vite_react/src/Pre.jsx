@@ -8,7 +8,7 @@ const Pre = () => {
 <div className='flex flex-wrap gap-14 justify-center items-center h-[120px] rounded-2xl  '>
        <div className='flex flex-wrap justify-center items-center  flex-col '>
             <img src="https://rukminim2.flixcart.com/flap/128/128/image/29327f40e9c4d26b.png?q=100" alt=""  className='flex h-[80px]'/>
-            <h1 className='text-black'>Grocery</h1>
+            <h1 className='text-black bg-slate-400'>Grocery</h1>
        </div>
        <div className='flex flex-wrap justify-center items-center   flex-col '>
             <img src="https://rukminim2.flixcart.com/flap/128/128/image/22fddf3c7da4c4f4.png?q=100" alt=""  className='flex h-[80px]'/>

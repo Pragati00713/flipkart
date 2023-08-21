@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Animation</title>
+     <style>
+          #box {
+               width: 150px;
+               height: 150px;
+               background-color: black;
+               color: white;
+               border-radius: 50%;
+               position: absolute;
+               left: 0px;
+          }
+     </style>
+</head>
+
+<body>
+     <button onclick="myMove();">cilck here</button>
+     <button onclick="mystart()"> click  </button>
+     <button onclick="mystp();">stop</button>
+     <div id="box">
+
+     </div>
+     <script>
+          var left=0;
+          var myInterval;
+          function mystart(){
+               myInterval=setInterval(myMove,100)
+          }
+          function myMove() {
+               left=left+5;
+                let obj= document.getElementById("box");
+                obj.style.left=left+"px";
+          }
+          function mystp(){
+               clearInterval(myInterval)
+          }
+         
+     </script>
+</body>
+
+</html>
