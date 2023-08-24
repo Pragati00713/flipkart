@@ -1,0 +1,16 @@
+
+*{
+     margin: 0;
+     padding: 0;
+}
+
+.foot{
+     display: flex;
+     justify-content: space-between;
+}
+#ball{
+     height: 80px;
+     position: absolute;
+     left: 190px;
+     top: 500px;
+}
