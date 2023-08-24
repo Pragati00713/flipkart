@@ -46,7 +46,7 @@ const Footer = () => {
 <li className='flex hover:underline'><a href="#">Kalyan News</a></li>
 <li className='flex hover:underline'><a href="#">Contact </a></li>
 <li className='flex hover:underline'><a href="#">Media</a></li>
-<li className='flex hover:underline'><a href="#">investor</a></li>
+<li className='flex hover:underline '><a href="#">investor</a></li>
 <li className='flex hover:underline'><a href="#">The Kalyav Media</a></li>
 <li className='flex hover:underline'><a href="#">Store locator</a></li>
      </ul>
